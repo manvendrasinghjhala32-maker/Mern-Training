@@ -13,7 +13,25 @@ body {
     min-height: 100vh;
     padding: 20px;
 }
-
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    color:blue;
+    font-size: xx-large;   
+    border: 5px;
+    margin: 10px;
+    gap: 20px;
+    background: linear-gradient(135deg, yellow 0%, green 100%);
+}
+.item{
+    background: linear-gradient(135deg, red 0%, blue 100%);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 header {
     background-color: #ffffff;
